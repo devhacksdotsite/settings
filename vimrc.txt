@@ -1,0 +1,11 @@
+filetype plugin indent on
+autocmd BufNewFile,BufRead *.html.ep   set syntax=html
+autocmd BufNewFile,BufRead *.js.ep   set syntax=javascript
+set wildmenu
+set incsearch
+set hlsearch
+set laststatus=2
+set pastetoggle=<F2>
+set ts=2
+set sw=2
+colorscheme elflord
